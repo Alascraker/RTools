@@ -358,7 +358,7 @@ for iPt, (ptMin, ptMax) in enumerate(zip(ptMins, ptMaxs)):
 	DataSideBandPtLen = len(dfDataSideBandPt)
 	DataCentPtLen = len(dfDataCentPt)
 	# DataPtLen = len(dfBkgPtSel)
-	CountFactor = (expBkg + DataSideBandPtLen) / DataSideBandPtLen
+	CountFactor = (expBkg) / DataSideBandPtLen
 	S = DataCentPtLen - expBkg
 	print(expBkg)
 	print(DataSideBandPtLen)
